@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { GoVerified } from 'react-icons/go';
-import { Me } from '../store/me.png'
 
 import { IUser } from '../types';
 
@@ -35,7 +34,7 @@ const SuggestedAccounts: NextPage<IProps> = ({ fetchAllUsers, allUsers }) => {
                   width={34}
                   height={34}
                   className='rounded-full'
-                  src={Me}
+                  src={'../store/me.png'}
                   alt='user-profile'
                   layout='responsive'
                 />
