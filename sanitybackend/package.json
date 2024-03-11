@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Jeff Jiang <jeff.jiang13@gmail.com>",
+  "author": "Albert Boyd <boydalbert81@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
@@ -30,6 +30,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeffjiang13/tiktok.git"
+    "url": "https://github.com/albertboyd/tiktok.git"
   }
 }

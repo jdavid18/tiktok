@@ -7,7 +7,7 @@ const nextConfig = {
       'cdn.pixabay.com',
       'p16-amd-va.tiktokcdn.com',
       'image.shutterstock.com',
-      'jeffjiang.vercel.app'
+      'albert-boyd.vercel.app'
     ],
   },
 };

@@ -3,13 +3,13 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/jeffjiang13/tiktok">
+  <a href="https://github.com/albertboyd/tiktok">
     <img src="utils/tiktik-logo.png" alt="rent" width="200" height="50">
   </a>
 
 </div>
 👋 To try out click here
-<a href="https://jj-tiktok.vercel.app/" > DEMO
+<a href="https://albert-tiktok.vercel.app/" > DEMO
 
 # Full Stack TikTok Clone Application
 
