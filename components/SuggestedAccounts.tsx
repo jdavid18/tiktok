@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { GoVerified } from 'react-icons/go';
+import { Me } from '../store/me.png'
 
 import { IUser } from '../types';
 
@@ -34,7 +35,7 @@ const SuggestedAccounts: NextPage<IProps> = ({ fetchAllUsers, allUsers }) => {
                   width={34}
                   height={34}
                   className='rounded-full'
-                  src={user.image}
+                  src={Me}
                   alt='user-profile'
                   layout='responsive'
                 />
@@ -42,11 +43,11 @@ const SuggestedAccounts: NextPage<IProps> = ({ fetchAllUsers, allUsers }) => {
 
               <div className='hidden xl:block'>
                 <p className='flex gap-1 items-center text-md font-bold text-primary lowercase'>
-                  {user.userName.replace(/\s+/g, '')}{' '}
+                  {'Albert Boyd'}
                   <GoVerified className='text-blue-400' />
                 </p>
                 <p className='capitalize text-gray-400 text-xs'>
-                  {user.userName}
+                  {'Albert Boyd'}
                 </p>
               </div>
             </div>
