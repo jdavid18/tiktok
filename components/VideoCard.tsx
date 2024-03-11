@@ -83,11 +83,11 @@ const VideoCard: NextPage<IProps> = ({ post: { caption, postedBy, video, _id, li
             <Link href={`/profile/${postedBy?._id}`}>
               <div className='flex items-center gap-2'>
                 <p className='flex gap-2 items-center md:text-md font-bold text-primary'>
-                  {postedBy.userName}{' '}
+                  {"Albert Boyd"}{' '}
                   <GoVerified className='text-blue-400 text-md' />
                 </p>
                 <p className='capitalize font-medium text-xs text-gray-500 hidden md:block'>
-                  {postedBy.userName}
+                  {"Albert Boyd"}}
                 </p>
               </div>
             </Link>
