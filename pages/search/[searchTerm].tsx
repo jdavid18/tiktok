@@ -44,10 +44,10 @@ const Search = ({ videos }: { videos: Video[] }) => {
                   <div>
                     <div>
                       <p className='flex gap-1 items-center text-lg font-bold text-primary'>
-                        {user.userName} <GoVerified className='text-blue-400' />
+                        {"Albert Boyd"} <GoVerified className='text-blue-400' />
                       </p>
                       <p className='capitalize text-gray-400 text-sm'>
-                        {user.userName}
+                        {"Albert Boyd"}
                       </p>
                     </div>
                   </div>

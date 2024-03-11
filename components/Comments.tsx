@@ -49,7 +49,7 @@ const Comments = ({ comment, setComment, addComment, comments, isPostingComment 
                           </div>
 
                           <p className='flex cursor-pointer gap-1 items-center text-[18px] font-bold leading-6 text-primary'>
-                            {user.userName}{' '}
+                            {"Albert Boyd"}{' '}
                             <GoVerified className='text-blue-400' />
                           </p>
                         </div>
