@@ -42,7 +42,7 @@ const Comments = ({ comment, setComment, addComment, comments, isPostingComment 
                               width={48}
                               height={48}
                               className='rounded-full cursor-pointer'
-                              src={user.image}
+                              src={'../store/me.png'}
                               alt='user-profile'
                               layout='responsive'
                             />
