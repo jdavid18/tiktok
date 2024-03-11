@@ -87,7 +87,7 @@ const VideoCard: NextPage<IProps> = ({ post: { caption, postedBy, video, _id, li
                   <GoVerified className='text-blue-400 text-md' />
                 </p>
                 <p className='capitalize font-medium text-xs text-gray-500 hidden md:block'>
-                  {"Albert Boyd"}}
+                  {"Albert Boyd"}
                 </p>
               </div>
             </Link>
